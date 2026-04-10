@@ -1,6 +1,3 @@
-env:
-  API_TOKEN: ${{ secrets.MY_API_TOKEN_SECRET }}
-  TEST_SECTER: ${{ secrets.TEST_SECTER_SECRET }}
 name: migration-jenkins
 on:
   push:
